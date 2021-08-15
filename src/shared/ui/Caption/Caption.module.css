@@ -1,0 +1,20 @@
+.root {
+  font-size: var(--font-size-sm);
+  color: var(--colors-text-secondary);
+}
+
+.error {
+  color: var(--colors-error);
+}
+
+.success {
+  color: var(--colors-success);
+}
+
+.info {
+  color: var(--colors-info);
+}
+
+.warning {
+  color: var(--colors-warning);
+}

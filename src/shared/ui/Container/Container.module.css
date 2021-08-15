@@ -1,0 +1,28 @@
+.root {
+  max-width: var(--breakpoints-md);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
+}
+
+.xs {
+  max-width: var(--breakpoints-xs);
+}
+
+.sm {
+  max-width: var(--breakpoints-sm);
+}
+
+.md {
+  max-width: var(--breakpoints-md);
+}
+
+.lg {
+  max-width: var(--breakpoints-lg);
+}
+
+.xl {
+  max-width: var(--breakpoints-xl);
+}

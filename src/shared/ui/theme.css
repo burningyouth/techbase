@@ -1,0 +1,69 @@
+:root {
+  /*Spacing*/
+  --spacing: 4px;
+
+  --spacing-1: var(--spacing);
+  --spacing-2: calc(var(--spacing) * 2);
+  --spacing-3: calc(var(--spacing) * 3);
+  --spacing-4: calc(var(--spacing) * 4);
+  --spacing-5: calc(var(--spacing) * 5);
+
+  /*Font sizes*/
+  --font-size-xs: 8px;
+  --font-size-sm: 12px;
+  --font-size-md: 16px;
+  --font-size-lg: 24px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 40px;
+
+  /*Breakpoints*/
+  --breakpoints-xs: 320px;
+  --breakpoints-sm: 520px;
+  --breakpoints-md: 1020px;
+  --breakpoints-lg: 1400px;
+  --breakpoints-xl: 1750px;
+
+  /*Text colors*/
+  --colors-text-primary: rgb(39, 39, 39);
+  --colors-text-secondary: rgb(71, 71, 71);
+  --colors-text-tertiary: rgb(133, 133, 133);
+
+  /*Bg colors*/
+  --colors-bg-primary: rgb(255, 255, 255);
+  --colors-bg-dark: rgb(155, 155, 155);
+  --colors-bg-overlay: rgba(223, 223, 223, 0.575);
+
+  /*Button colors*/
+  --colors-button-primary: rgb(231, 231, 231);
+  --colors-button-hover: rgb(224, 224, 224);
+  --colors-button-active: rgb(212, 212, 212);
+  --colors-button-disabled: var(--colors-button-active);
+
+  /*Accent colors*/
+  --colors-primary: var(--colors-text-primary);
+  --colors-secondary: var(--colors-text-secondary);
+  --colors-tertiary: var(--colors-text-tertiary);
+  --colors-error: rgb(240, 64, 64);
+  --colors-warning: rgb(255, 223, 81);
+  --colors-info: rgb(65, 160, 224);
+  --colors-success: rgb(60, 168, 83);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--colors-text-primary);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--font-size-md);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--colors-bg-primary);
+}

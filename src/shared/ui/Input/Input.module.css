@@ -1,0 +1,13 @@
+.root {
+  padding: var(--spacing-3) var(--spacing-2);
+  border-radius: var(--spacing-1);
+  border: 1px solid var(--colors-tertiary);
+}
+
+.error {
+  border: 1px solid var(--colors-error);
+}
+
+.success {
+  border: 1px solid var(--colors-success);
+}

@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colors-bg-overlay);
+  height: 50px;
+}
+
+.root > *:not(:last-of-type) {
+  margin-right: var(--spacing-4);
+}

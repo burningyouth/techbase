@@ -1,0 +1,6 @@
+.root {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: var(--spacing-1);
+  text-align: left;
+}

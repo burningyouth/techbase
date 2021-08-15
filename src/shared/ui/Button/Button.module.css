@@ -1,0 +1,21 @@
+.root {
+  padding: var(--spacing-2);
+  border-radius: var(--spacing-1);
+  border: 1px solid var(--colors-tertiary);
+  cursor: pointer;
+  background-color: var(--colors-button-primary);
+}
+
+.root:active {
+  background-color: var(--colors-button-active);
+}
+
+.root:hover {
+  background-color: var(--colors-button-hover);
+}
+
+.root:disabled {
+  border-color: var(--colors-text-tertiary);
+  background-color: var(--colors-button-disabled);
+  color: var(--colors-text-tertiary);
+}
